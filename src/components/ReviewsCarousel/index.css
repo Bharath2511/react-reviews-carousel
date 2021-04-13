@@ -1,0 +1,71 @@
+/* Write your code here */
+
+* {
+  font-family: 'Roboto';
+}
+
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #ffffff;
+  text-align: center;
+}
+
+.review-carousel-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.review-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 240px;
+}
+
+.card-image-container {
+  text-align: center;
+}
+.card-text-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.card-heading {
+  color: #ffffff;
+  font-size: 26px;
+}
+.card-company {
+  color: #171f46;
+}
+.card-description {
+  color: #171f46;
+}
+
+@media screen and (min-width: 768px) {
+  .review-card {
+    width: 600px;
+  }
+}
