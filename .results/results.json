@@ -22,11 +22,11 @@
     },
     {
       "test_case_id": "RJSCPUPPE1_TEST_6",
-      "evaluation_result": "INCORRECT"
+      "evaluation_result": "CORRECT"
     },
     {
       "test_case_id": "RJSCPUPPE1_TEST_7",
-      "evaluation_result": "INCORRECT"
+      "evaluation_result": "CORRECT"
     },
     {
       "test_case_id": "RJSCPUPPE1_TEST_8",
@@ -50,7 +50,7 @@
     },
     {
       "test_case_id": "RJSCPUPPE1_TEST_13",
-      "evaluation_result": "INCORRECT"
+      "evaluation_result": "CORRECT"
     },
     {
       "test_case_id": "RJSCPUPPE1_TEST_14",
@@ -58,7 +58,7 @@
     },
     {
       "test_case_id": "RJSCPUPPE1_TEST_15",
-      "evaluation_result": "INCORRECT"
+      "evaluation_result": "CORRECT"
     },
     {
       "test_case_id": "RJSCPUPPE1_TEST_16",

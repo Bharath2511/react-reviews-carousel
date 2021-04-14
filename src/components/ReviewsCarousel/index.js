@@ -29,11 +29,7 @@ class ReviewsCarousel extends Component {
     return (
       <div className="review-card">
         <div className="card-image-container">
-          <img
-            src={imgUrl}
-            alt={`${username}-"avatar"`}
-            className="card-image"
-          />
+          <img src={imgUrl} alt={`${username}-avatar`} className="card-image" />
         </div>
         <div className="card-text-content">
           <h1 className="card-heading">{username}</h1>
@@ -55,7 +51,7 @@ class ReviewsCarousel extends Component {
           <button testid="leftArrow" className="button" type="button">
             <img
               src="https://assets.ccbp.in/frontend/react-js/left-arrow-img.png"
-              alt=""
+              alt="left-arrow"
               onClick={this.DisplayLeftReview}
             />
           </button>
@@ -64,7 +60,7 @@ class ReviewsCarousel extends Component {
           <button testid="rightArrow" className="button" type="button">
             <img
               src="https://assets.ccbp.in/frontend/react-js/right-arrow-img.png"
-              alt=""
+              alt="right-arrow"
               onClick={this.DisplayRightReview}
             />
           </button>
